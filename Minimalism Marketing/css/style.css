@@ -2,7 +2,7 @@
 .wrap {
 	background: url(../img/background.png) 100%;
 	min-width: 1090px;
-	padding-bottom: 45px;
+	padding-bottom: 46px;
 }
 .wrap-conteiner {
 	display: -webkit-box;
@@ -78,7 +78,6 @@
 /*style for navigation*/
 .main-nav {width: 22.3%;}
 /*navigation-sprite*/
-
 .edu__sprite {background-position: 64px -16px;}
 .bonus__sprite {background-position: 43px -20px;}
 .challenge__sprite {background-position: 2px -40px;}
@@ -103,7 +102,6 @@
 .nav-list__item ul li:hover i.news__sprite{background: url(../img/spritesheet_hover.png) -19px 0px;}
 .nav-list__item ul li:hover i.platform__sprite{background: url(../img/spritesheet_hover.png) 44px 0px;}
 /*end navigation-sprite*/
-
 .nav-list__item ul li {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -208,9 +206,7 @@
     text-align: left;
     vertical-align: middle;
 }
- 
 .fileform .selectbutton { 
-    
     float: right;
     height: 20px;
     line-height: 20px;
@@ -220,7 +216,6 @@
     vertical-align: middle;
     width: 50px;
 }
- 
 .fileform #upload{
     position:absolute; 
     top:0; 
@@ -233,7 +228,6 @@
     height: 30px; 
     z-index:20;
 }
-
 .fileform {
 	background: url(../img/spritesheet_conteiner.png) 84px -1px;
 	width: 27px;
@@ -287,7 +281,6 @@
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	padding: 4px 2px 0 0;
-	
 }
 .coment-title__img {padding-top: 5px;}
 .coment-title__info {
@@ -414,7 +407,6 @@
 .item_like-icon:hover {
 	background: url(../img/spritesheet_conteiner.png) -1px -34px;
 }
-
 .coment-page__form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -441,18 +433,7 @@
 	height: 39px;
 	margin: 8px 0 0 86px;
 }
-
-
-
-
 .icon_form {background: url(../img/spritesheet_conteiner.png)-74px -37px;margin: 3px -1px 0 10px;}
-
-
-
-
-
-
-
 .form-input {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -505,6 +486,7 @@ input[type="file"] {
 	margin: 16px 0 20px 30px;
 	text-align: center;
 }
+#coment-text_btn-hide {display: none;margin-left: 585px;}
 .coment-see__more a {color: #0084bc;text-decoration: underline;}
 /*style for third coment*/
 .third-coment {margin-top: 14px;}
@@ -517,8 +499,9 @@ input[type="file"] {
 .end__btn {margin: 26px;}
 .fourth__like {padding: 5px 6px 0 0;}
 .fifth__like {margin: 6px -3px 0 0;}
-#hidden-section {display: none;}
-#hidden-coment {display: none;}
+#hidden-section {display: none;margin-top: -30px;}
+#hidden-section .fifth-coment {margin: 0;}
+#hidden-coment {display: none;margin-top: 65px;}
 #coment-answer_btn-hide {display: none;}
 #coment-text_hide {display: none;}
 #bl-hidden_btn {display: none;}
@@ -536,29 +519,3 @@ input[type="file"] {
 	     -o-transition: 1s;
 	        transition: 1s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
