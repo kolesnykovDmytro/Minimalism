@@ -10,7 +10,7 @@
 	display: flex;
 	min-width: 1090px;
 	width: 1090px;
-	margin: 0 0 0 171px;
+	margin: 0 auto;
 	padding-top: 46px;
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
